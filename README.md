@@ -19,9 +19,9 @@ alternatives --set jar /opt/jdk1.8.0_66/bin/jar
 alternatives --set javac /opt/jdk1.8.0_66/bin/javac
 
 # add globale path -- comented for time being as we will set parmenant variable
-# export JAVA_HOME=/opt/jdk1.8.0_66
-# export JRE_HOME=/opt/jdk1.8.0_66/jre
-# export PATH=$PATH:/opt/jdk1.8.0_66/bin:/opt/jdk1.8.0_66/jre/bin
+export JAVA_HOME=/opt/jdk1.8.0_66
+export JRE_HOME=/opt/jdk1.8.0_66/jre
+export PATH=$PATH:/opt/jdk1.8.0_66/bin:/opt/jdk1.8.0_66/jre/bin
 
 
 #create a file called java.sh under /etc/profile.d/ directory.
